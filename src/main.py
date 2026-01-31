@@ -7,7 +7,7 @@ from datetime import date
 import requests
 
 import push
-from skyland import start
+from src.skyland import start
 
 exit_when_fail_env = os.environ.get('EXIT_WHEN_FAIL')
 use_proxy = os.environ.get('USE_PROXY')
